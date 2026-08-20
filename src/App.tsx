@@ -29,6 +29,7 @@ import StaffPage from "./pages/dashboard/StaffPage";
 import InventoryPage from "./pages/dashboard/InventoryPage";
 import NotificationsPage from "./pages/dashboard/NotificationsPage";
 import SettingsPage from "./pages/dashboard/SettingsPage";
+import SubscriptionPage from "./pages/dashboard/SubscriptionPage";
 import MyProfilePage from "./pages/dashboard/MyProfilePage";
 import TutorialsPage from "./pages/dashboard/TutorialsPage";
 import MessagesPage from "./pages/dashboard/MessagesPage";
@@ -170,6 +171,7 @@ const App = () => (
               <Route path="inventory" element={<InventoryPage />} />
               <Route path="notifications" element={<NotificationsPage />} />
               <Route path="settings" element={<SettingsPage />} />
+              <Route path="subscription" element={<SubscriptionPage />} />
               <Route path="profile" element={<MyProfilePage />} />
               <Route path="tutorials" element={<TutorialsPage />} />
               <Route path="messages" element={<MessagesPage />} />

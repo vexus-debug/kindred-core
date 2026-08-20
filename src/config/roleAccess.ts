@@ -21,6 +21,7 @@ export const PAGE_ROLE_ACCESS: Record<string, OrgRole[]> = {
   "inventory": ["owner", "admin", "receptionist"],
   "notifications": ["owner", "admin", "dentist", "receptionist", "hygienist", "assistant", "accountant", "lab_technician", "lab_assistant"],
   "settings": ["owner", "admin"],
+  "subscription": ["owner", "admin"],
   "profile": ["owner", "admin", "dentist", "receptionist", "hygienist", "assistant", "accountant", "lab_technician", "lab_assistant"],
   "tutorials": ["owner", "admin", "dentist", "receptionist", "hygienist", "assistant", "accountant", "lab_technician", "lab_assistant"],
   "messages": ["owner", "admin", "dentist", "receptionist", "hygienist", "assistant", "accountant", "lab_technician", "lab_assistant"],
