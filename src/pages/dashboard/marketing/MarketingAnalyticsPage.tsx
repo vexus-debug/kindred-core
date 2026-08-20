@@ -10,7 +10,7 @@ import {
 import { TrendingUp, Users, DollarSign, Target } from "lucide-react";
 import { channelPerformance, monthlyTrend, newPatientSources, funnelStages } from "@/data/marketing/mockMarketing";
 
-const money = (n: number) => `$${n.toLocaleString()}`;
+const money = (n: number) => `₦${n.toLocaleString()}`;
 const COLORS = ["hsl(var(--secondary))", "#3b82f6", "#10b981", "#f59e0b", "#ef4444"];
 
 export default function MarketingAnalyticsPage() {

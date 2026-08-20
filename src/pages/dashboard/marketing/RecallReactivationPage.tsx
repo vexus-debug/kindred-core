@@ -7,7 +7,7 @@ import { Users, DollarSign, PhoneCall, Mail, MessageSquare, CalendarClock } from
 import { recallSegments, lifecycleJourneys } from "@/data/marketing/mockMarketing";
 import { toast } from "sonner";
 
-const money = (n: number) => `$${n.toLocaleString()}`;
+const money = (n: number) => `₦${n.toLocaleString()}`;
 
 export default function RecallReactivationPage() {
   const totalPatients = recallSegments.reduce((a, s) => a + s.count, 0);

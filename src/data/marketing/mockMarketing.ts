@@ -64,13 +64,13 @@ export const patientReviews: PatientReview[] = [
 
 export const referrals: Referral[] = [
   { id: "rf1", referrer_name: "Grace Okoro", referral_code: "GRACE20", referred_name: "Ijeoma A.", status: "treated", reward: "Free whitening top-up", reward_status: "issued", created_at: "2026-08-02T10:00:00Z" },
-  { id: "rf2", referrer_name: "Daniel Meyer", referral_code: "DAN20", referred_name: "Peter M.", status: "booked", reward: "$25 credit", reward_status: "pending", created_at: "2026-08-10T10:00:00Z" },
-  { id: "rf3", referrer_name: "Amina Bello", referral_code: "AMINA20", referred_name: "Zainab B.", status: "invited", reward: "$25 credit", reward_status: "pending", created_at: "2026-08-18T10:00:00Z" },
+  { id: "rf2", referrer_name: "Daniel Meyer", referral_code: "DAN20", referred_name: "Peter M.", status: "booked", reward: "₦10,000 credit", reward_status: "pending", created_at: "2026-08-10T10:00:00Z" },
+  { id: "rf3", referrer_name: "Amina Bello", referral_code: "AMINA20", referred_name: "Zainab B.", status: "invited", reward: "₦10,000 credit", reward_status: "pending", created_at: "2026-08-18T10:00:00Z" },
 ];
 
 export const promotions: Promotion[] = [
   { id: "pr1", name: "Spring whitening", code: "BRIGHT20", discount: "20% off", description: "Professional in-chair whitening", starts_at: "2026-08-01", expires_at: "2026-09-30", usage_limit: 100, used: 37, active: true },
-  { id: "pr2", name: "Family checkup bundle", code: "FAMILY4", discount: "$60 off", description: "Four checkups booked together", starts_at: "2026-08-15", expires_at: "2026-10-15", usage_limit: 50, used: 11, active: true },
+  { id: "pr2", name: "Family checkup bundle", code: "FAMILY4", discount: "₦25,000 off", description: "Four checkups booked together", starts_at: "2026-08-15", expires_at: "2026-10-15", usage_limit: 50, used: 11, active: true },
   { id: "pr3", name: "New patient exam", code: "WELCOME", discount: "Free consult", description: "First visit exam and x-ray", starts_at: "2026-06-01", expires_at: "2026-12-31", usage_limit: 300, used: 128, active: true },
   { id: "pr4", name: "Kids month", code: "KIDS26", discount: "15% off", description: "All pediatric treatments", starts_at: "2026-05-01", expires_at: "2026-05-31", usage_limit: 80, used: 74, active: false },
 ];
