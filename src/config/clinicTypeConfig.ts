@@ -94,6 +94,19 @@ const dentalNav: NavGroup[] = [
     ],
   },
   {
+    label: "Marketing",
+    items: [
+      { title: "Marketing Hub", path: "marketing", icon: Megaphone },
+      { title: "Email Blasts", path: "marketing/email", icon: Mail },
+      { title: "SMS Blasts", path: "marketing/sms", icon: MessageSquare },
+      { title: "Social Content", path: "marketing/social", icon: CalendarRange },
+      { title: "Reviews & Referrals", path: "marketing/reviews", icon: Star },
+      { title: "Promotions", path: "marketing/promotions", icon: Ticket },
+      { title: "Recall & Reactivation", path: "marketing/recall", icon: Users },
+      { title: "Marketing Analytics", path: "marketing/analytics", icon: TrendingUp },
+    ],
+  },
+  {
     label: "Reports",
     items: [
       { title: "Reports", path: "reports", icon: BarChart3 },
