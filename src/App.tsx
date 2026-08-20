@@ -192,6 +192,14 @@ const App = () => (
               <Route path="treatment-materials" element={<TreatmentMaterialsPage />} />
               <Route path="analytics" element={<AdvancedAnalyticsPage />} />
               <Route path="shop-management" element={<ShopManagementPage />} />
+              <Route path="marketing" element={<MarketingOverviewPage />} />
+              <Route path="marketing/email" element={<EmailBlastsPage />} />
+              <Route path="marketing/sms" element={<SmsBlastsPage />} />
+              <Route path="marketing/social" element={<SocialContentPage />} />
+              <Route path="marketing/reviews" element={<ReviewsReferralsPage />} />
+              <Route path="marketing/promotions" element={<PromotionsPage />} />
+              <Route path="marketing/recall" element={<RecallReactivationPage />} />
+              <Route path="marketing/analytics" element={<MarketingAnalyticsPage />} />
               <Route path="lab" element={<LabDashboardPage />} />
               <Route path="lab/cases" element={<LabCasesPage />} />
               <Route path="lab/technicians" element={<LabTechniciansPage />} />
