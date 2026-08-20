@@ -42,6 +42,14 @@ export const PAGE_ROLE_ACCESS: Record<string, OrgRole[]> = {
   "purchase-orders": ["owner", "admin", "receptionist"],
   "treatment-materials": ["owner", "admin", "dentist"],
   "analytics": ["owner", "admin"],
+  "marketing": ["owner", "admin", "receptionist"],
+  "marketing/email": ["owner", "admin", "receptionist"],
+  "marketing/sms": ["owner", "admin", "receptionist"],
+  "marketing/social": ["owner", "admin"],
+  "marketing/reviews": ["owner", "admin", "receptionist"],
+  "marketing/promotions": ["owner", "admin"],
+  "marketing/recall": ["owner", "admin", "receptionist"],
+  "marketing/analytics": ["owner", "admin"],
 };
 
 /**

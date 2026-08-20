@@ -61,6 +61,16 @@ import TreatmentMaterialsPage from "./pages/dashboard/TreatmentMaterialsPage";
 import AdvancedAnalyticsPage from "./pages/dashboard/AdvancedAnalyticsPage";
 import ShopManagementPage from "./pages/dashboard/ShopManagementPage";
 
+// Marketing pages
+import MarketingOverviewPage from "./pages/dashboard/marketing/MarketingOverviewPage";
+import EmailBlastsPage from "./pages/dashboard/marketing/EmailBlastsPage";
+import SmsBlastsPage from "./pages/dashboard/marketing/SmsBlastsPage";
+import SocialContentPage from "./pages/dashboard/marketing/SocialContentPage";
+import ReviewsReferralsPage from "./pages/dashboard/marketing/ReviewsReferralsPage";
+import PromotionsPage from "./pages/dashboard/marketing/PromotionsPage";
+import RecallReactivationPage from "./pages/dashboard/marketing/RecallReactivationPage";
+import MarketingAnalyticsPage from "./pages/dashboard/marketing/MarketingAnalyticsPage";
+
 // Admin pages
 import AdminOverview from "./pages/admin/AdminOverview";
 import AdminClinics from "./pages/admin/AdminClinics";
@@ -182,6 +192,14 @@ const App = () => (
               <Route path="treatment-materials" element={<TreatmentMaterialsPage />} />
               <Route path="analytics" element={<AdvancedAnalyticsPage />} />
               <Route path="shop-management" element={<ShopManagementPage />} />
+              <Route path="marketing" element={<MarketingOverviewPage />} />
+              <Route path="marketing/email" element={<EmailBlastsPage />} />
+              <Route path="marketing/sms" element={<SmsBlastsPage />} />
+              <Route path="marketing/social" element={<SocialContentPage />} />
+              <Route path="marketing/reviews" element={<ReviewsReferralsPage />} />
+              <Route path="marketing/promotions" element={<PromotionsPage />} />
+              <Route path="marketing/recall" element={<RecallReactivationPage />} />
+              <Route path="marketing/analytics" element={<MarketingAnalyticsPage />} />
               <Route path="lab" element={<LabDashboardPage />} />
               <Route path="lab/cases" element={<LabCasesPage />} />
               <Route path="lab/technicians" element={<LabTechniciansPage />} />
