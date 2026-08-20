@@ -61,6 +61,16 @@ import TreatmentMaterialsPage from "./pages/dashboard/TreatmentMaterialsPage";
 import AdvancedAnalyticsPage from "./pages/dashboard/AdvancedAnalyticsPage";
 import ShopManagementPage from "./pages/dashboard/ShopManagementPage";
 
+// Marketing pages
+import MarketingOverviewPage from "./pages/dashboard/marketing/MarketingOverviewPage";
+import EmailBlastsPage from "./pages/dashboard/marketing/EmailBlastsPage";
+import SmsBlastsPage from "./pages/dashboard/marketing/SmsBlastsPage";
+import SocialContentPage from "./pages/dashboard/marketing/SocialContentPage";
+import ReviewsReferralsPage from "./pages/dashboard/marketing/ReviewsReferralsPage";
+import PromotionsPage from "./pages/dashboard/marketing/PromotionsPage";
+import RecallReactivationPage from "./pages/dashboard/marketing/RecallReactivationPage";
+import MarketingAnalyticsPage from "./pages/dashboard/marketing/MarketingAnalyticsPage";
+
 // Admin pages
 import AdminOverview from "./pages/admin/AdminOverview";
 import AdminClinics from "./pages/admin/AdminClinics";
