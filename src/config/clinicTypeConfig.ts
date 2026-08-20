@@ -4,7 +4,7 @@ import {
   ClipboardList, DollarSign, Wrench, MessageSquare, Star, Receipt, Shield,
   FileCheck, FolderOpen, Eye, Heart, Baby, Bone, Ear, Wallet, FileText,
   PiggyBank, TrendingUp, Calculator, Clock, CalendarClock, Truck,
-  ShoppingCart, Link2, LineChart, Globe, Megaphone, Mail, CalendarRange, Ticket,
+  ShoppingCart, Link2, LineChart, Globe, Megaphone, Mail, CalendarRange, Ticket, BadgeCheck,
 } from "lucide-react";
 
 export interface NavItem {
@@ -140,6 +140,7 @@ const extraItems: NavItem[] = [
   { title: "Notifications", path: "notifications", icon: Bell },
   { title: "Tutorials", path: "tutorials", icon: GraduationCap },
   { title: "Settings", path: "settings", icon: Settings },
+  { title: "Subscription", path: "subscription", icon: BadgeCheck },
 ];
 
 export const clinicTypeConfig: Record<string, ClinicTypeConfig> = {
